@@ -22,8 +22,7 @@ class App extends React.Component {
           data: response.data,
         });
       })
-      .then(() => console.log(this.state.data))
-      .catch(error => console.log(error));
+      .catch(error => console.log('HERE ERROR ', error));
   }
 
   render() {
