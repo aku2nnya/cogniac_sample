@@ -2,6 +2,11 @@
   font-weight: bold;
 }
 
+.loading {
+  margin: 15px;
+  color: rgba(100,100,100,0.8);
+}
+
 .detectionResult {
   display: flex;
   flex-wrap: wrap;
