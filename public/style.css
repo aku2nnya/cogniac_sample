@@ -1,5 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
-  font-weight: bold;
+  font-weight: bold;;
+  padding: 10px;
+  background-color: rgba(100,100,100,0.8);
+  color: rgba(245,245,245,1)
 }
 
 .loading {
@@ -14,11 +21,19 @@
 
 .detection {
   flex-basis: 250px;
+  padding: 5px;
   margin: 15px;
+  border-style: ridge;
+  border-width: 2px;
+  border-color: rgba(100,100,100,1);
+  border-radius: 2%;
 }
 
 .detectionImage {
   margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(100,100,100,0.8);
 }
 
 .probability {
