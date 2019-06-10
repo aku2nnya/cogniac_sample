@@ -23,7 +23,9 @@ const Detections = (props) => {
       </div>
     );
   }
-  return null;
+  return (
+    <div className="loading">Loading...</div>
+  );
 };
 
 export default Detections;
