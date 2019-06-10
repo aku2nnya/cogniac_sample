@@ -1,0 +1,28 @@
+.header {
+  font-weight: bold;
+}
+
+.detectionResult {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detection {
+  flex-basis: 250px;
+  margin: 15px;
+}
+
+.detectionImage {
+  margin: 5px;
+}
+
+.probability {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.updated {
+  font-weight: bold;
+  font-size: 10px;
+  color: rgba(100,100,100,1);
+}
